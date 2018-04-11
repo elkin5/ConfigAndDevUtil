@@ -1,0 +1,31 @@
+[user]
+	name = Elkin Hurtado
+	email = syselkin5@gmail.com
+[credential]
+	helper = manager
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	autocrlf = false
+
+
+[user]
+	name = elkin5
+	email = syselkin5@gmail.com
+	password = elkin1905
+
+[core] 
+	packedGitLimit = 512m 
+	packedGitWindowSize = 512m 
+	[pack] 
+	deltaCacheSize = 2047m 
+	packSizeLimit = 2047m 
+	windowMemory = 2047m
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
