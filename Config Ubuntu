@@ -10,6 +10,6 @@ https://slimbook.es/tutoriales/linux/65-solucion-problema-touchpad-en-linux
 
 https://www.apachefriends.org/es/download.html  https://www.apachefriends.org/es/faq_linux.html
 
-
+sudo gedit /etc/fstab archivo donde se configuran las particiones al inicio
 
 
