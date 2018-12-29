@@ -1,0 +1,34 @@
+Atajos de teclado
+Ctrl + L: Seleccionar la próxima línea.
+
+Ctrl + clic en varios sitios selecciona múltiples punteros para escribir o borrar en todos ellos.
+
+Ctrl + G: Podemos poner el número de línea al que queremos ir.
+
+Ctrl + P: Abre la consola de comandos, y si ponemos # nos muestra todas las etiquetas HTML que tenemos en el archivo.
+
+Shift + F11: Activa el modo “freak” (antidistracción).
+
+Ctrl + ç: Escribe “//” para poner un comentario de una línea (si estamos en HTML escribe )
+
+Ctrl + Shift + ç: Escribe “/* */” para poner un comentario de varias líneas.
+
+Ctrl + Shift + A: Selecciona el código dentro de una etiqueta.
+
+Ctrl + Intro: Inserta una línea después de la actual.
+
+Ctrl + J: Une líneas.
+
+Ctrl + KU: Pone en mayúsculas el texto. Para volver a poner en minúsculas Ctrl + KL.
+
+Ctrl + H: Reemplazar texto.
+
+Alt + Shift + 2: Divide la ventana en 2 vistas, pudiendo tener dos archivos abiertos al mismo tiempo, podemos poner 1,2,3 o 4 columnas.
+
+ Alt+inicio+N nueva fila
+
+ con+shif+c paleta de colores
+
+Ctrl + F2: Añade línea a favoritos. Para ir al siguiente favorito pulsamos F2, para ir al anterior Shift + F2.
+
+Ctrl+Shift+T terminal
