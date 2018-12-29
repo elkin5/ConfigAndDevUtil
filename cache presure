@@ -1,0 +1,23 @@
+CACHE PRESSURE
+
+1* COMANDO:
+sudo cat /proc/sys/vm/vfs_cache_pressure
+
+2* COMANDO:
+sudo sysctl -w vm.vfs_cache_pressure=50
+
+3* COMANDO:
+sudo nano /etc/sysctl.conf
+
+AÑADIR AL FINAL DEL ARCHIVO:
+vm.vfs_cache_pressure=50
+
+PULSAR:
+(CTRL+O) (ENTER) (CTRL+X)
+
+
+2* UNREADAHEAD
+
+EN LA TERMINAL:
+sudo rm /var/lib/ureadahead/pack
+

@@ -1,0 +1,13 @@
+sudo mount /dev/sda1 /mnt
+
+sudo grub-install --boot-directory=/mnt/boot /dev/sda
+
+sudo grub-install --root-directory=/mnt /dev/sda
+
+ sudo add-apt-repository ppa:yannubuntu/boot-repair
+- sudo apt-get update
+- sudo apt-get install -y boot-repair && (boot-repair &)
+
+sudo fdisk -l 
+sudo mount -t ext4 /dev/sda7 /mnt
+sudo grub-install --root-directory=/mnt /dev/sda 

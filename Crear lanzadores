@@ -41,6 +41,18 @@ Crear acceso al bin para ejecutar desde el termminal
 /dev/disk/by-id/mmc-128G32_0x41659df9-part2 /mnt/D permissions,users,auto,exec x-gvfs-show 0 0
 
 
+Version=1.0
+Type=Application
+Name=Eclipse Oxigen
+GenericName=eclipse/IDE
+Comment=IDE para java EE
+Exec=/home/elkin/Media/Linux_Aux/Aplicaciones/eclipse/eclipse
+Terminal=false
+MimeType=text/plain;
+Icon=/home/elkin/Media/Linux_Aux/Aplicaciones/eclipse/icon.xpm
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
 
 
 
