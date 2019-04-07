@@ -21,3 +21,8 @@ PULSAR:
 EN LA TERMINAL:
 sudo rm /var/lib/ureadahead/pack
 
+
+
+vm.vfs_cache_pressure=50
+vm.swappiness=10
+

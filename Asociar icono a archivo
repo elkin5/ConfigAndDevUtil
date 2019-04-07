@@ -1,0 +1,6 @@
+ir a 
+.local/share/mime
+
+crear un mime en packages
+
+update-mime-database /home/elkin/.local/share/mime

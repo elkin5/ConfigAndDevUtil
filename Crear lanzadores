@@ -54,6 +54,21 @@ Categories=TextEditor;Development;
 StartupNotify=true
 Actions=Window;Document;
 
+/home/elkin/Media/Linux_Aux/Aplicaciones/sts-bundle/sts-3.9.4.RELEASE/STS
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Spring Tools Suite
+GenericName=sts/IDE
+Comment=IDE para java EE con spring framework
+Exec=/home/elkin/Media/Linux_Aux/Aplicaciones/sts-bundle/sts-3.9.4.RELEASE/STS
+Terminal=false
+MimeType=text/plain;
+Icon=/home/elkin/Media/Linux_Aux/Aplicaciones/sts-bundle/sts-3.9.4.RELEASE/icon.xpm
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
 
 
 

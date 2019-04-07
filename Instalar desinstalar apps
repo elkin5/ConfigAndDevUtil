@@ -1,0 +1,49 @@
+#!/bin/sh
+
+si sel lanza a aprtir de un sh o es posible poner en el bin el ejecutable 
+si no la apllicacion .dektop
+
+Instalar aplicacion en opt
+
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+# $1 npath de aplicacion
+# $2 nombre de aplicacion
+
+cd $SCRIPTPATH
+
+if [ -d /opt/lx-mms/server/var ] ; then 
+    mv /opt/lx-mms/server/var /tmp/
+    rm -R /opt/lx-mms
+fi
+
+if [ -d /opt/lx-mms ] ; then 
+    rm -R /opt/lx-mms
+    mv lx-mms /opt/
+else
+    mv lx-mms /opt/
+fi
+
+if [ -d /tmp/var ] ; then
+    mv /tmp/var/ /opt/lx-mms/server
+fi
+
+if [ -f /usr/local/bin/lx-mms ] ; then 
+    echo "Shortcut already exists."
+else
+    ln -s /opt/lx-mms/start /usr/local/bin/lx-mms
+fi
+
+if [ -f /usr/share/applications/mms.desktop ] ; then
+    echo "Menu entry already exists"
+else
+    mv /opt/lx-mms/mms.desktop /usr/share/applications/
+fi
+
+eliminar aplicacion en opt 
+sudo rm -R /opt/<app>
+sudo rm /usr/local/bin/<app>
+sudo rm /usr/share/applications/<name>.desktop
+
+
